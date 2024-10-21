@@ -4,7 +4,7 @@ import { View,Text,TextInput,TouchableOpacity } from "react-native";
 const TopBar =  () => {
     return (
         <>
-        <View className="border-2 border-black mt-7 p-2">
+        <View className="bg-slate-100 border-e-2 mt-7 p-2">
         <View className="flex-row justify-between  p-1">
         <TouchableOpacity>
 

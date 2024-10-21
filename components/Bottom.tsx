@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { View,Text,TouchableOpacity } from "react-native";
 
-const TopBar =  () => {
+const Bottom =  () => {
     const [changecolor, setChangeColor] = useState('');
     return (
         <>
@@ -36,4 +36,4 @@ const TopBar =  () => {
     );
 }
 
-export default TopBar;
+export default Bottom;
